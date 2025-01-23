@@ -1,6 +1,7 @@
 .main{padding: 0px; margin: 0px}
-.navbar{background-color:rgba(0, 0, 0, 0.4);;; justify-content: space-around; height: 80px;}
+.navbar{background-color:rgba(0, 0, 0, 0.4);;; justify-content: space-between; height: 80px;}
 .navbar a  { color:white; margin-left: 50px; margin-bottom: 10px ;text-align: center; text-justify: auto; font-family: monospace;font-size: 24px;}
+
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 10; }
@@ -13,7 +14,11 @@
     from { margin-left: 5px; }
     to {margin-left: 300px }
 }
-
+@keyframes a32 {
+    from { margin-top: 495px; }
+    to {margin-top: 00px }
+}
+.about{ ;animation-name: a32; animation-duration: 13s}
 
 .input{}
 .main{background-image: url(pexels-pixabay-268533.jpg); height: 200%;width: 100%; background-repeat: no-repeat; background-size: cover; background-position: center}
@@ -25,7 +30,7 @@ table{ padding: 100px; justify-content: space-between; align-items: center; marg
 
 .logo{animation-name: a2; animation-duration: 3s}
 	.trend{animation-name:a3; animation-duration: 3s;margin-left: 300px;margin-bottom: 0px  }
-input{animation-name:fadeIn; animation-duration: 1s }
+input{animation-name:fadeIn; animation-duration: 1s; margin-left:0px;  }
 .template button{border-radius: 8px; background-color: deepskyblue; margin-left: 50px;padding: 12px; color: white; font-size: 12px; width: 50%;}
 .t1 img{width: 80px ; }
 
@@ -33,3 +38,20 @@ input{animation-name:fadeIn; animation-duration: 1s }
 .d hr{width: 150px;height: 2px ; background-color: gold}
 .d h1{margin-left: 50px; color: goldenrod;}
 .d button{padding: 10px;border-radius: 6px; background-color: transparent; margin-left: 40px}
+
+
+.u{  width:100px;height:100px; border-radius: 100px;  background-position: center; background-size: cover;}
+.u1{background-image: url(space.jpg);}
+.u3{background-image: url(IMG-20240722-WA0036.jpg);}
+
+.u2{background-image: url('images%20(6).jpeg');}
+.table2 button{background-color: transparent; border:2px  solid white;color:blueviolet; padding: 12px; border-radius: 8px; border-right-color: blueviolet; border-top-color: blueviolet; border-bottom-color: snow; border-left-color: snow;}
+.table2 {table-layout: fixed;}
+.img5{height: 70px; width: 70px; border-radius:70px;   background-position: center; background-size: cover; }
+.m1m{background-image: url(test1.png);}
+.m2m{background-image: url(test2.gif);}
+.m3m{background-image: url(test3.png);}
+.m4m{background-image: url(test4.png);}
+.com{background-color: white; height: 220px; width: 230px;border-radius: 8px; margin: 5px; margin-bottom: 80px; padding: 5px;}
+
+
